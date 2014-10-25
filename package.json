@@ -1,0 +1,16 @@
+{
+  "name": "ffl-services",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Fantasy Film League Services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bird Duck Software",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "0.8.0",
+    "ffl-repositories": "fantasyfilmleague/ffl-repositories"
+  }
+}
