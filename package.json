@@ -1,7 +1,7 @@
 {
   "name": "ffl-services",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Fantasy Film League Services",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "bcrypt": "0.8.0",
+    "ffl-email": "fantasyfilmleague/ffl-email",
     "ffl-repositories": "fantasyfilmleague/ffl-repositories",
+    "ffl-utils": "fantasyfilmleague/ffl-utils",
     "moment": "2.8.3"
   }
 }
