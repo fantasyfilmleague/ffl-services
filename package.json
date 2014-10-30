@@ -14,7 +14,8 @@
     "ffl-email": "fantasyfilmleague/ffl-email",
     "ffl-repositories": "fantasyfilmleague/ffl-repositories",
     "ffl-utils": "fantasyfilmleague/ffl-utils",
-    "moment": "2.8.3"
+    "moment": "2.8.3",
+    "underscore": "1.7.0"
   },
   "devDependencies": {
     "chance": "0.6.1",
