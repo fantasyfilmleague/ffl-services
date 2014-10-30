@@ -8,6 +8,10 @@ describe('ffl-services', function () {
   it('should export an actor service', function () {
     assert.ok(index.actor);
   });
+  
+  it('should export an cast service', function () {
+    assert.ok(index.cast);
+  });
 
   it('should export a league service', function () {
     assert.ok(index.league);
