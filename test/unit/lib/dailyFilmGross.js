@@ -68,6 +68,18 @@ describe('DailyFilmGrossService', function () {
       });
     }
 
+    it('should return error when film ids is null', function (done) {
+      invalidArgumentsTests(null, done);
+    });
+
+    it('should return error when film ids is undefined', function (done) {
+      invalidArgumentsTests(undefined, done);
+    });
+
+    it('should return error when film ids is empty array', function (done) {
+      invalidArgumentsTests([], done);
+    });
+
     it('should return error when film ids contains null', function (done) {
       invalidArgumentsTests([null, 1], done);
     });
