@@ -17,6 +17,10 @@ describe('ffl-services', function () {
     assert.ok(index.cast);
   });
 
+  it('should export a film service', function () {
+    assert.ok(index.film);
+  });
+
   it('should export a league service', function () {
     assert.ok(index.league);
   });
