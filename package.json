@@ -1,7 +1,7 @@
 {
   "name": "ffl-services",
   "private": true,
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "Fantasy Film League Services",
   "main": "index.js",
   "scripts": {
@@ -19,6 +19,6 @@
     "chance": "0.6.1",
     "ffl-db": "fantasyfilmleague/ffl-db",
     "mocha": "2.0.1",
-    "sinon": "1.11.0"
+    "sinon": "1.11.1"
   }
 }
